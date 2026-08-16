@@ -78,71 +78,75 @@
       </div>
     </section><!-- /Hero Section -->
 
-    <!-- Habilidades -->
-    <section id="Habilidades" class="about section">
+<!-- Habilidades Section -->
+    <section id="Habilidades" class="about section pt-5">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
-          <div class="col-md-6">
+          
+          <!-- Columna Izquierda: Datos y Habilidades -->
+          <div class="col-lg-6">
 
-            <div class="row justify-content-between gy-4">
-              <div class="col-lg-5">
-                <img src="assets/img/profile-img_hrm.jpg" class="img-fluid" alt="Hugo Ramírez Montaño">
+            <!-- Ficha de Perfil -->
+            <div class="row align-items-center mb-4 p-3 bg-light rounded shadow-sm">
+              <div class="col-sm-4 text-center mb-3 mb-sm-0">
+              <img src="assets/img/profile-img_Hrm.jpg" class="img-fluid rounded shadow-sm" alt="Hugo Ramírez Montaño">
               </div>
-              <div class="col-lg-7 about-info">
-                <p><strong>Nombre: </strong> <span>Hugo Ramírez Montaño</span></p>
-                <p><strong>Profesión: </strong> <span>Analista-Programador</span></p>
-                <p><strong>Email: </strong> <span>hramirezmontano@vtr.net</span></p>
-                <p><strong>Teléfono: </strong> <span>+56 9 86223662</span></p>
+              <div class="col-sm-8 about-info">
+                <p class="mb-1"><strong>Nombre:</strong> <span>Hugo Ramírez Montaño</span></p>
+                <p class="mb-1"><strong>Profesión:</strong> <span>Analista-Programador</span></p>
+                <p class="mb-1"><strong>Email:</strong> <span>hramirezmontano@vtr.net</span></p>
+                <p class="mb-0"><strong>Teléfono:</strong> <span>+56 9 86223662</span></p>
               </div>
             </div>
 
+            <!-- Barras de Habilidades -->
             <div class="skills-content skills-animation">
-              <h5>Habilidades</h5>
+              <h5 class="fw-bold mb-3">Habilidades</h5>
 
-              <div class="progress">
+              <div class="progress mb-3">
                 <span class="skill"><span>HTML</span> <i class="val">80%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
-              <div class="progress">
+              <div class="progress mb-3">
                 <span class="skill"><span>CSS</span> <i class="val">80%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
-              <div class="progress">
+              <div class="progress mb-3">
                 <span class="skill"><span>JavaScript</span> <i class="val">60%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
-              <div class="progress">
+              <div class="progress mb-3">
                 <span class="skill"><span>Python</span> <i class="val">60%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
-              <div class="progress">
+              <div class="progress mb-3">
                 <span class="skill"><span>VB.Net</span> <i class="val">80%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
-              <div class="progress">
+              <div class="progress mb-3">
                 <span class="skill"><span>SQL Server</span> <i class="val">80%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
-              <div class="progress">
+              <div class="progress mb-3">
                 <span class="skill"><span>AWS</span> <i class="val">50%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -152,9 +156,10 @@
             </div>
           </div>
 
-          <div class="col-md-6">
-            <div class="about-me">
-              <h4>Sobre Mí</h4>
+          <!-- Columna Derecha: Sobre Mí -->
+          <div class="col-lg-6">
+            <div class="about-me p-3">
+              <h4 class="fw-bold mb-3">Sobre Mí</h4>
               <p>
                 Como Analista-Programador con más de 10 años de experiencia, poseo una sólida base en el desarrollo de software de ciclo completo.
                 He liderado equipos en la arquitectura de soluciones escalables, optimizando procesos y garantizando la calidad del código.
@@ -170,11 +175,11 @@
               </p>
             </div>
           </div>
+
         </div>
 
       </div>
     </section><!-- /Habilidades Section -->
-
     <!-- Resumen Section -->
     <section id="resume" class="resume section">
 
