@@ -4,7 +4,7 @@ Proyecto web desarrollado para la asignatura de Desarrollo Web II (IPChile). Con
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 * **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5, AOS (Animate On Scroll).
 * **Backend:** Java (JSP / Servlets), Apache Tomcat.
@@ -13,7 +13,7 @@ Proyecto web desarrollado para la asignatura de Desarrollo Web II (IPChile). Con
 
 ---
 
-## 📋 Requisitos Previos
+##  Requisitos Previos
 
 Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
@@ -25,7 +25,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## 🗄️ 1. Configuración de la Base de Datos
+##  1. Configuración de la Base de Datos
 
 1. Abre **MySQL Workbench** (o la herramienta de administración MySQL que utilices).
 2. Crea una nueva base de datos o ejecuta el script SQL ubicado en la carpeta del proyecto (`sql/script.sql`).
@@ -36,7 +36,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## 🚀 2. Clonar el Proyecto desde GitHub
+##  2. Clonar el Proyecto desde GitHub
 
 Abre tu terminal (PowerShell o terminal de VS Code) y ejecuta los siguientes comandos:
 
