@@ -486,9 +486,9 @@
 
                                   <div class="col-md-12">
                                     <textarea class="form-control" name="mensaje" rows="6" placeholder="Mensaje"
-                                     required>
+                                     required></textarea>
                                     <div class="invalid-feedback">Ingresa un Mensaje.</div>
-                                    </textarea>
+                                    
                                   </div>
 
                                   <div class="col-md-12 text-center">
