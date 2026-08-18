@@ -477,14 +477,18 @@
                                       required>
                                     <div class="invalid-feedback">Ingresa un correo electrónico válido.</div>
                                   </div>
-
+                 
                                   <div class="col-md-12">
-                                    <input type="text" class="form-control" name="asunto" placeholder="Asunto" required>
+                                    <input type="text" class="form-control" name="asunto" placeholder="Asunto" 
+                                    required> 
+                                    <div class="invalid-feedback">Ingresa un Asunto válido.</div>
                                   </div>
 
                                   <div class="col-md-12">
                                     <textarea class="form-control" name="mensaje" rows="6" placeholder="Mensaje"
-                                      required></textarea>
+                                     required>
+                                    <div class="invalid-feedback">Ingresa un Mensaje.</div>
+                                    </textarea>
                                   </div>
 
                                   <div class="col-md-12 text-center">
