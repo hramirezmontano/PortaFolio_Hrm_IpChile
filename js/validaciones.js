@@ -56,9 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
         asunto.setCustomValidity('');
       }
 
-      // Validar largo mínimo del mensaje (por ejemplo, al menos 10 caracteres)
-      if (mensaje.value.trim().length < 10) {
-        mensaje.setCustomValidity('El mensaje debe tener al menos 10 caracteres.');
+    // Validar que el mensaje no esté vacío
+      if (mensaje.value.trim() === '') {
+        asunto.setCustomValidity('El Mensaje no puede estar vacío.');
         esValido = false;
       } else {
         mensaje.setCustomValidity('');
