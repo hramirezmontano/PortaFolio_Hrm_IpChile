@@ -479,7 +479,7 @@
                                   </div>
                  
                                   <div class="col-md-12">
-                                    <input type="text" class="form-control" name="asunto" placeholder="Asunto" 
+                                    <input type="text" name="asunto" class="form-control"  placeholder="Asunto" 
                                     required> 
                                     <div class="invalid-feedback">Ingresa un Asunto válido.</div>
                                   </div>

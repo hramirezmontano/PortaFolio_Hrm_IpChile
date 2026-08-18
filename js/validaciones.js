@@ -36,9 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
         mensaje.setCustomValidity(''); // Restablece el estado
       }
 
-
-
-
       // Validar formato de Email mediante Expresión Regular
       const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!regexEmail.test(email.value.trim())) {
@@ -46,22 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
         esValido = false;
       } else {
         email.setCustomValidity('');
-      }
-
-      // Validar que el asunto no esté vacío
-      if (asunto.value.trim() === '') {
-        asunto.setCustomValidity('El asunto no puede estar vacío.');
-        esValido = false;
-      } else {
-        asunto.setCustomValidity('');
-      }
-
-    // Validar que el mensaje no esté vacío
-      if (mensaje.value.trim() === '') {
-        asunto.setCustomValidity('El Mensaje no puede estar vacío.');
-        esValido = false;
-      } else {
-        mensaje.setCustomValidity('');
       }
 
       // 3. Detener envío si alguna validación falló
