@@ -20,6 +20,25 @@ document.addEventListener('DOMContentLoaded', () => {
         nombre.setCustomValidity(''); // Restablece el estado
       }
 
+      // Validar que el asunto no contenga solo espacios
+      if (asunto.value.trim() === '') {
+        asunto.setCustomValidity('El Asunto no puede estar vacío.');
+        esValido = false;
+      } else {
+        asunto.setCustomValidity(''); // Restablece el estado
+      }
+      
+      // Validar que el mensaje no contenga solo espacios
+      if (mensaje.value.trim() === '') {
+        mensaje.setCustomValidity('El Mensaje no puede estar vacío.');
+        esValido = false;
+      } else {
+        mensaje.setCustomValidity(''); // Restablece el estado
+      }
+
+
+
+
       // Validar formato de Email mediante Expresión Regular
       const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!regexEmail.test(email.value.trim())) {

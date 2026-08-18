@@ -13,8 +13,10 @@
 
                 <%-- De Esta Forma Se debe subir a GitHub ,estando ubicado en la carpeta de trabajo.
                   -------------------------------------------------------------------------------- 
-                  git add . o tambien
-                  git add index.jsp git commit -m "Descripción breve de los cambios realizados" 
+                  git add . o tambien  git add index.jsp
+                  
+                  git commit -m "Descripción breve de los cambios realizados" 
+                  
                   git push 
                 
                 --%>
